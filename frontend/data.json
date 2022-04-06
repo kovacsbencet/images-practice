@@ -1,42 +1,42 @@
 [
     {
-        "filename": "./public/img/cat-looking.jpg",
+        "filename": "cat-looking.jpg",
         "title": "Cat looking"
     },
     {
-        "filename": "./public/img/cattle-sleeping.jpg",
+        "filename": "cattle-sleeping.jpg",
         "title": "Cattle Sleeping"
     },
     {
-        "filename": "./public/img/cherry-blossoms.jpg",
+        "filename": "cherry-blossoms.jpg",
         "title": "Cherry Blossoms"
     },
     {
-        "filename": "./public/img/dog-smiling.jpg",
+        "filename": "dog-smiling.jpg",
         "title": "Dog Smiling"
     },
     {
-        "filename": "./public/img/fjord-norway.jpg",
+        "filename": "fjord-norway.jpg",
         "title": "Fjord Norway"
     },
     {
-        "filename": "./public/img/funny-seal.jpg",
+        "filename": "funny-seal.jpg",
         "title": "Funny Seal"
     },
     {
-        "filename": "./public/img/horses-eating.jpg",
+        "filename": "horses-eating.jpg",
         "title": "Horses Eating"
     },
     {
-        "filename": "./public/img/new-york-manhattan.jpg",
+        "filename": "new-york-manhattan.jpg",
         "title": "New York Manhattan"
     },
     {
-        "filename": "./public/img/penguin-walking.jpg",
+        "filename": "penguin-walking.jpg",
         "title": "Penguin Walking"
     },
     {
-        "filename": "./public/img/scary-forest.jpg",
+        "filename": "scary-forest.jpg",
         "title": "Scary Forest"
     }
 ]
