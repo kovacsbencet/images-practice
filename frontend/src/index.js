@@ -1,3 +1,7 @@
+import Swiper from "swiper";
+
+import "swiper/css"
+
 const parseJSON = async (url) => {
     const response = await fetch(url);
     return response.json();
@@ -13,13 +17,12 @@ const swiperComponent = (data, comp) =>{
     `
 };
 
-const swiperSlideComponent = ({filename, title}) => {
+const slideComponent = ({filename, title}) => {
     return `
         <div class="swiper-slide"
             <h2>${title}</h2>
-            <img src="/public/img/${filename}">
-        <div>
-    
+            <img src="./public/img/${filename}"/>
+        </div>
     `
 }
 
@@ -27,7 +30,7 @@ const loadEvent = async () => {
     const rootElement = document.getElementById("root");
     const result = await parseJSON("/image-list");
 
-    rootElement.insertAdjacentHTML("beforeend", swiperComponent(result, swiperSlideComponent));
+    rootElement.insertAdjacentHTML("beforeend", swiperComponent(result, slideComponent));
 
     const swiper = new Swiper(".swiper", {
         loop: true,
